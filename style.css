@@ -1,0 +1,256 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body {
+  min-width: 375px;
+  background-color: hsl(221, 35%, 14%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+nav {
+  min-width: 375px;
+  min-height: 50px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  max-width: 100px;
+  height: 30px;
+}
+.navigation {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 60px;
+}
+h4 {
+  color: rgb(190, 186, 186);
+  font-size: 1em;
+}
+/*main page*/
+main {
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainPg_content {
+  width: 330px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+}
+.intro_img {
+  width: 100%;
+}
+h1 {
+  font-size: 1.9em;
+  margin-top: 50px;
+}
+.first_p {
+  margin: 30px 0px;
+  line-height: 25px;
+}
+.getStarted_btn {
+  width: 250px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: hsl(194, 76%, 65%);
+  border: none;
+  color: whitesmoke;
+  font-size: 1.3em;
+}
+/*second page*/
+.secondPg_content {
+  width: 330px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.accessAnywhere {
+  width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.security {
+  width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.collaboration {
+  width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.anyFile {
+  width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.secondPg_imgs {
+  width: 50px;
+  margin-bottom: 20px;
+}
+h2 {
+  color: whitesmoke;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+p {
+  color: whitesmoke;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+/*third page*/
+.thirdPg_content {
+  width: 330px;
+  margin: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stayProductive_img {
+  width: 300px;
+  margin-bottom: 30px;
+}
+.seeHowFlyoWorks_btn {
+  border-bottom: hsl(176, 68%, 64%) solid;
+  color: hsl(176, 68%, 64%);
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  background: none;
+
+  height: 25px;
+
+  align-self: flex-start;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* fourth Page */
+.quotes_img {
+  width: 8%;
+}
+.fourthPg_content {
+  height: 100vh;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card {
+  height: 28%;
+  background-color: hsl(219, 30%, 18%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 30px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+.founders_p {
+  line-height: 25px;
+  font-size: 0.8rem;
+}
+.bottom {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.founder_info {
+  display: flex;
+  flex-direction: column;
+}
+.founder_imgs {
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.name {
+  font-size: 1rem;
+  color: aliceblue;
+}
+h5 {
+  color: rgb(197, 194, 194);
+  font-size: 0.6rem;
+}
+form {
+  background-color: hsl(219, 30%, 18%);
+  height: 360px;
+  width: 360px;
+  display: flex;
+  padding: 30px 20px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+}
+.form_heading {
+  margin-bottom: 20px;
+}
+.form_p {
+  line-height: 25px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.email {
+  width: 270px;
+  height: 50px;
+  font-size: 0.8rem;
+  border-radius: 50px;
+  border-style: none;
+  padding-left: 30px;
+}
+.submit_form {
+  width: 270px;
+  height: 50px;
+  border-radius: 50px;
+  border-style: none;
+  font-size: 1rem;
+  background-color: hsl(194, 76%, 65%);
+  color: white;
+  margin-top: 20px;
+}
+footer {
+  background-color: hsl(219, 36%, 9%);
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo_footer {
+  max-width: 150px;
+  height: 50px;
+  margin-right: 100px;
+  margin: 40px;
+}
+.footer_info {
+  background-color: yellowgreen;
+  width: 360px;
+}
