@@ -209,7 +209,7 @@ form {
   border-radius: 10px;
   flex-direction: column;
   align-items: center;
-  margin-top: 150px;
+  margin-top: 120px;
 }
 .form_heading {
   margin-bottom: 20px;
@@ -237,20 +237,57 @@ form {
   color: white;
   margin-top: 20px;
 }
+/* star of footer */
 footer {
+  height: 100vh;
   background-color: hsl(219, 36%, 9%);
   width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.logo_footer {
-  max-width: 150px;
-  height: 50px;
-  margin-right: 100px;
-  margin: 40px;
-}
-.footer_info {
-  background-color: yellowgreen;
+.logo_container {
   width: 360px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  padding-left: 40px;
+  margin: 50px 0px;
+}
+.logo_footer {
+  /* max-width: 150px; */
+  height: 50px;
+}
+
+.info_container {
+  /* background-color: yellowgreen; */
+  height: 800px;
+  width: 360px;
+  padding-left: 20px;
+}
+.footer_icons {
+  margin-right: 30px;
+}
+.footer_contacts {
+  /* background-color: teal; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 30%;
+}
+.location_info {
+  text-align: start;
+}
+.footer_links {
+  color: whitesmoke;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: thistle; */
+  margin-top: 80px;
+}
+.contact_us {
+  margin-top: 20px;
 }
